@@ -1000,7 +1000,6 @@ local AutoSummitCKPTW = {
 }
 
 local AutoSummitATIN = {
-    CFrame.new(436.40,1728.44,3431.17), -- CP25
     CFrame.new(625.72,1807.36,3432.32), -- CP26
     CFrame.new(806.40,2169.73,3897.66), -- SUMMIT
     CFrame.new(112.62,2432.62,3484.93), -- PLANG
