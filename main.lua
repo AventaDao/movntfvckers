@@ -69,12 +69,12 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Main")
-local Section = Tab:CreateSection("- 3xplo Yang Tersedia -")
+local Section = Tab:CreateSection("- MovntFvckers ReWork by FakePOpe -")
 
 local InfiniteJumpEnabled = false
 
 local Toggle = Tab:CreateToggle({
-    Name = "Infinite Jump",
+    Name = "Infinite Jump - 👼",
     CurrentValue = false,
     Flag = "Toggle1",
     Callback = function(Value)
@@ -106,7 +106,7 @@ local AutoHealEnabled = false
 local HealConnection
 
 local Toggle = Tab:CreateToggle({
-    Name = "Auto Heal",
+    Name = "Auto Heal - ❤️",
     CurrentValue = false,
     Flag = "AutoHealToggle",
     Callback = function(Value)
@@ -153,7 +153,7 @@ local function disableGodMode(character)
 end
 
 local Toggle = Tab:CreateToggle({
-    Name = "God Mode",
+    Name = "God Mode - 😇",
     CurrentValue = false,
     Flag = "GodModeToggle",
     Callback = function(Value)
