@@ -35,10 +35,10 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 -- end
 
 local Window = Rayfield:CreateWindow({
-   Name = "Anti Movnt by FakePOpe",
+   Name = "Mount Fvckers by RzkyO & mZZ4",
    Icon = 0,
-   LoadingTitle = "Fvckers Hub",
-   LoadingSubtitle = "by FakePOpe",
+   LoadingTitle = "mZZ4 HUB",
+   LoadingSubtitle = "by RzkyO & mZZ4",
    Theme = "Default",
 
    DisableRayfieldPrompts = false,
@@ -69,12 +69,12 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Main")
-local Section = Tab:CreateSection("- MovntFvckers ReWork by FakePOpe -")
+local Section = Tab:CreateSection("- 3xplo Yang Tersedia -")
 
 local InfiniteJumpEnabled = false
 
 local Toggle = Tab:CreateToggle({
-    Name = "Infinite Jump - 👼",
+    Name = "Infinite Jump",
     CurrentValue = false,
     Flag = "Toggle1",
     Callback = function(Value)
@@ -106,7 +106,7 @@ local AutoHealEnabled = false
 local HealConnection
 
 local Toggle = Tab:CreateToggle({
-    Name = "Auto Heal - ❤️",
+    Name = "Auto Heal",
     CurrentValue = false,
     Flag = "AutoHealToggle",
     Callback = function(Value)
@@ -153,7 +153,7 @@ local function disableGodMode(character)
 end
 
 local Toggle = Tab:CreateToggle({
-    Name = "God Mode - 😇",
+    Name = "God Mode",
     CurrentValue = false,
     Flag = "GodModeToggle",
     Callback = function(Value)
@@ -1216,7 +1216,7 @@ Toggle_B = Tab:CreateToggle({
     Callback = function(on)
         if on then
             spawn(function()
-                runOnceResilient(AutoSummitCKPTW, Toggle_B, 5, "Auto Summit - CKPTW by @G0dd3stEvil", { autoRejoin = false })
+                runOnceResilient(AutoSummitCKPTW, Toggle_B, 5, "Auto Summit - CKPTW by RzkyO", { autoRejoin = false })
             end)
         end
     end,
@@ -1229,7 +1229,7 @@ Toggle_C = Tab:CreateToggle({
     Callback = function(on)
         if on then
             spawn(function()
-                runOnceResilient(AutoSummitATIN, Toggle_C, 5, "Auto Summit - Atin by @G0dd3stEvil", { autoRejoin = false })
+                runOnceResilient(AutoSummitATIN, Toggle_C, 5, "Auto Summit - Atin by RzkyO", { autoRejoin = false })
             end)
         end
     end,
